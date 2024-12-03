@@ -14,6 +14,10 @@ public abstract class Animal : MonoBehaviour
     }
     public abstract float CalculateFoodRequirement();
     
+       
+    
+    
+    
         
     
     public virtual void MakeSound() 
