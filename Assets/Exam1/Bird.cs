@@ -16,7 +16,7 @@ public class Bird : Animal
     public override float CalculateFoodRequirement()
     {
         float foodCon = dailyFoodConsumption * weight * 7;
-        Debug.Log($"{animalName} eats {dailyFoodConsumption} daily with activity level {weight}");
+        Debug.Log($"{animalName}eats {dailyFoodConsumption} daily and weight {weight}");
         Debug.Log($"{animalName} weekly food req {foodCon}");
         return foodCon;
     }

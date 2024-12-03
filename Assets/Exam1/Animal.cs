@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Animal : MonoBehaviour
 {
     protected string animalName;
-    public string AnimalName {  get { return animalName; } }
+    
 
     //method
     public void Init(string newName)
